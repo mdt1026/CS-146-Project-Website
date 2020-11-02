@@ -1,0 +1,7 @@
+.playlist {
+    width: 80%;
+    height: 320px;
+    frameborder: 0;
+    allowtransparency: true;
+    allow: encrypted-media;
+}
