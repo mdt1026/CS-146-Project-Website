@@ -1,24 +1,24 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>
-      Random Playlist – Spotify Suggestions
-    </title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <header>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="#">Random Playlist</a>
-        <a href="library.html">Library</a>
-        <a href="playlist-explore.html">View All</a>
-        <a href="about.html">About</a>
-      </nav>
-    </header>
-    <h1>Generate Suggestion</h1>
-    <section>
-      <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DXcBWIGoYBM5M" class="playlist" frameborder=1></iframe>
-    </section>
-  </body>
+<html lang="en">
+<head>
+  <title>
+    Random Playlist – Spotify Suggestions
+  </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a id="left" href="index.html">Home</a>
+      <a class="active" href="#">Random Playlist</a>
+      <a href="library.html">Library</a>
+      <a href="playlist-explore.html">View All</a>
+      <a id="right" href="about.html">About</a>
+    </nav>
+  </header>
+  <h1>Generate Suggestion</h1>
+  <section id="iframe-example">
+    <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DXcBWIGoYBM5M" class="playlist" allowtransparency="true" allow="encrypted-media"></iframe>
+  </section>
+</body>
 </html>
