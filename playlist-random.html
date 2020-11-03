@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>
+    Random Playlist – Spotify Suggestions
+  </title>
+  <link rel="stylesheet" href="playlist-random.css">
+</head>
+<body>
+  <header>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="playlist-list.html">View Playlists</a>
+        <a href="playlist-random.html">Random Playlist</a>
+        <a href="playlist-add.html">Add Playlist</a>
+        <a href="about.html">About</a>
+      </nav>
+  </header>
+    <div>
+        <table style="width:70%" class="center">
+      <tr>
+        <td>  
+        <section id="iframe-example">
+        <iframe src="" width="480" height="380" id="random" class="playlist" allowtransparency="true" allow="encrypted-media"></iframe><br>
+        <input id="randomButton" type="button" value="Random Playlist Generator" onclick="codeAddress();">
+        </section></td>
+      </tr>
+    </table>
+  <script src="playlist-random.js"></script>
+</body>
+</html>
