@@ -25,7 +25,7 @@ nav a {
     margin: 15px;
 }
 
-nav a.active {
+nav a:hover {
     color: white;
 }
 
