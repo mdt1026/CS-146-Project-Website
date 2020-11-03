@@ -1,45 +1,32 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 2em 2em 4em;
+    background: black;
+
+}
+html {
+    background: gray;
+}
+
 nav {
-    display: block;
-    font-size: 0;
-    background: #add8e6;
-    border: 2px #000080 solid;
-    height: 48px;
+    padding: 15px;
+    background-color: none;
+    font: 17px;
+    font-family:sans-serif;
 }
 
 nav a {
-    display: inline-block;
-    width: 20%;
-    height: 48px;
-    box-sizing: border-box;
-
-    border: 0 #000080 solid;
-    border-left-width: 1px;
-    border-right-width: 1px;
-    padding: 16px 0;
-    overflow: hidden;
-
-    color: #000080;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    text-align: center;
     text-decoration: none;
-}
-
-nav a#left {
-    border-left-width: 0;
-}
-
-nav a#right {
-    border-right-width: 0;
+    color: aqua;
+    margin: 15px;
 }
 
 nav a.active {
-    background-color: #20b2aa;
-}
-
-nav a:hover:not(.active) {
-    background-color: #3cb371;
+    color: white;
 }
 
 .playlist {
