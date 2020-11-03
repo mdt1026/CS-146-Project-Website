@@ -47,11 +47,19 @@ nav a:hover:not(.active) {
     height: 320px;
 }
 
+#randomButton {
+    height: 160px;
+    margin-top: 80px;
+    width: auto;
+}
+
 #iframe-example {
+    display: flex;
+
     margin-top: 0;
-    margin-right: 10%;
+    margin-right: 5%;
     margin-bottom: 0;
-    margin-left: 10%;
+    margin-left: 5%;
 }
 
 .center {
