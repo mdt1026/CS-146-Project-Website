@@ -7,6 +7,7 @@ body {
     padding: 2em 2em 4em;
     background: black;
 }
+
 html {
     background: gray;
 }
@@ -17,15 +18,33 @@ nav {
     font: 17px;
     font-family:sans-serif;
 }
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+}
+
 a{
     text-decoration: none;
     color: aqua;
     margin: 15px;
 }
+
 a:hover {
   color: white;
 }
 
 section {
-    color:aqua
+    display: flex;
+    flex-flow: column nowrap;
+    color:aqua;
+}
+
+section h1, p {
+    flex: 100%;
 }

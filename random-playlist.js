@@ -14,24 +14,35 @@ var urls = [
     "https://open.spotify.com/embed/playlist/1jOdHEL3urkzUwL3pxhMBT"
 ]
 
-var myFrame = document.getElementById("random");
-
 function selectRandomUrl(myFrame) {
     while(true) {
         var index = Math.floor(Math.random() * urls.length);
         if(myFrame.src == urls[index]) {
             continue;
         }
-        console.log(urls[index]);
-        console.log(myFrame.src);
-
         myFrame.src = urls[index];
-        console.log(myFrame.src);
         break;
     }
 }
 
 function codeAddress()
 {
+    var myFrame = document.getElementById("random");
+    myFrame.style.display = "block";
+    console.log(myFrame.style.display);
     selectRandomUrl(myFrame);
+}
+
+function showHideForm(myFrame) {
+    if (myFrame.display == "none") {
+        myFrame.style.display = "block"
+    } else {
+        myFrame.display = "none"
+    }
+}
+
+function toggleForm()
+{
+    var myFrame = document.getElementById("form-frame");
+    showHideForm(myFrame);
 }
