@@ -33,16 +33,19 @@ function codeAddress()
     selectRandomUrl(myFrame);
 }
 
-function showHideForm(myFrame) {
-    if (myFrame.display == "none") {
+function showHideForm(myFrame, myButton) {
+    if (myFrame.style.display == "") {
+        myButton.value = "Click here to hide the form"
         myFrame.style.display = "block"
     } else {
-        myFrame.display = "none"
+        myButton.value = "Want to suggest a playlist?  Click here"
+        myFrame.style.display = ""
     }
 }
 
 function toggleForm()
 {
     var myFrame = document.getElementById("form-frame");
-    showHideForm(myFrame);
+    var myButton = document.getElementById("toggleFrame");
+    showHideForm(myFrame, myButton);
 }

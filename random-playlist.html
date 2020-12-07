@@ -19,11 +19,11 @@
   </header>
   <h1>Generate Suggestion</h1>
   <section id="suggested-playlist">
-    <input id="randomButton" type="button" value="Click here for a random playlist" onclick="codeAddress()"/>
+    <input id="randomButton" class="button" type="button" value="Click here for a random playlist" onclick="codeAddress()"/>
     <iframe src="" id="random" class="playlist" allowtransparency="true" allow="encrypted-media" frameBorder="0"></iframe>
-    <input id="toggleFrame" type="button" value="Want to suggest a playlist?" onclick="toggleForm()"/>
+    <input id="toggleFrame" class="button" type="button" value="Want to suggest a playlist?  Click here" onclick="toggleForm()"/>
     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdqcl_4KicxVFvs5n_4fzTB_BydJt3ocKfyYtZCVNW9d0RCMQ/viewform?embedded=true"
-            id="form-frame" class="form" frameBorder="0" allowtransparency="true">Loading…</iframe>
+            id="form-frame" frameBorder="0" allowtransparency="true">Loading…</iframe>
   </section>
   <script src="random-playlist.js"></script>
 </body>
