@@ -26,6 +26,7 @@ nav li {
 }
 
 nav a {
+    display: block;
     text-decoration: none;
     color: #00c3c3;
 }
@@ -238,6 +239,7 @@ th, td {
         flex: 1 100%;
         width: 100%;
         margin: 5px 0;
+        height: 320px;
     }
 
     #playlist-grid p {
